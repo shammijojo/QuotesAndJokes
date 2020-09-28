@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body{
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.sidenav{
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: rgba(118, 213, 230, 0.8); /* Black */
+
+  padding-top: 0px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+
+#quote,#jokes{
+  color: black
+}
+
+
+#demo{
+  position: relative;
+}
+
+#quotelayout{
+  position: relative;
+  left:210px;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(118, 213, 230, 0.8);
+}
+
+.searchlayout{
+  position: relative;
+  display: flex;
+  left:210px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+#quotesecondlayout{
+  position: relative;
+  margin-top: 10px;
+  margin-left:auto; 
+  margin-right:10px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(146, 231, 179, 0.8);
+}
+
+
+  #authorname{
+    text-align: right;
+}
+
+#base{
+  padding-bottom: 10px;
+  padding-right: 300px;
+}
+
+#navigate{
+ margin-left: 50%;
+}
+
+#searchbox{
+  width: 200px;
+  height: 20px;
+}
+
